@@ -1,0 +1,91 @@
+@charset "utf-8";
+body {
+    font-size: 28px;
+    margin: 0%;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #42008d;
+  }
+  .div{
+    background: url("../../img/Walpapper.png");
+    padding: 50px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background-repeat: no-repeat;
+    background-size:150%;
+}
+.div2{
+  background-color: rgb(182, 182, 182);
+  padding: 5px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  background-repeat: no-repeat;
+  background-size:150%;
+}
+.ajuste {
+    width: 100%;
+    max-width:700px;
+    height: auto;
+    }
+.footer {
+        padding: 20px;
+        text-align: center;
+        background: #333;
+        margin-top: 20px;
+        margin-right: 0px;
+        margin-left: 0px;
+        position: fixed;
+      }
+
+      .button {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        width: 100%;
+       max-width:200px;
+       height: auto;
+      }
+      .button3 {
+        font-size: 30px;
+        padding: 40px 200px;
+        background-color: lightslategray;
+        background-size:100%;
+      }
