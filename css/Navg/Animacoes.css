@@ -1,0 +1,13 @@
+@keyframes voltar{
+    0% {
+        transform: translateX(300px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.Aparecer{
+    animation: voltar 1s;
+    
+}

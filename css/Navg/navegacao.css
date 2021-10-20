@@ -166,3 +166,11 @@ body {
       .dropdown:hover .dropdown-content {
         display: block;
       }
+      .a{
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+      }
+      ::-webkit-scrollbar {
+        display: none;
+    }
