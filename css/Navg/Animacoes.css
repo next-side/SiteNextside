@@ -10,3 +10,33 @@
 .Aparecer{
     animation: voltar 0.6s;
   }   
+
+
+
+
+  @-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  
+
+  .slide-top {
+	-webkit-animation: scale-up-center 1s ease-in-out forwards;
+	        animation: scale-up-center 1s ease-in-out forwards;
+}
